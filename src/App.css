@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (maxwidth: 768px) {
+  .App{
+    width: 750px;
+  }
+  .des{
+    width: 20%;
+  }
+}
+
