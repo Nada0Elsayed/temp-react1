@@ -9,31 +9,28 @@
     border:1px solid rgba(0, 0, 100, 0.2);
 }
 .b{
-        display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    align-content: flex-end;
 }
 .h{
-width: 25%;
-height: 100%;  
-    
+    width: 25%;
 }
 .scard h5{
     font-size: 18px;
-    height: 50px;
+    height: 45px;
     overflow: hidden;
 }
 .sp{
     height: 80px;
     overflow: hidden;
-    width: 100%;
+    width: 90%; 
 }
 .sm{
     height: 130px;
+    object-fit: contain;
 }
-.cat{
+.catsgory{
     margin: 4px;
     margin-bottom: 10px;
 }
@@ -52,7 +49,7 @@ height: 100%;
     .h{
         width: 85%;
     }
- 
+    
 }
 /* @media (min-width: 769px) and (max-width: 1024px) {
     .scard{

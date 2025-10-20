@@ -6,11 +6,11 @@ function Product(props) {
       <div className="scard">
         <img
           src={product.image}
-          className="card-img-top sm object-fit-contain"
+          className="card-img-top sm "
           alt={product.title}
         />
         {/* <div className="nn"> */}
-          <h5 className=" p-2">{product.title}</h5>
+          <h5 >{product.title}</h5>
           <p className="sp">
             {product.description}
           </p>

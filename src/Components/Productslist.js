@@ -38,7 +38,7 @@ function Productslist() {
         <h1 className="text-center p-3">Products List Component</h1>
         <div className="container">
           <button
-            className="btn btn-info cat"
+            className="btn btn-info catsgory"
             onClick={() => {
               getproducts();
             }}
@@ -48,7 +48,7 @@ function Productslist() {
           {cag.map((c) => {
             return (
               <button
-                className="btn btn-info cat"
+                className="btn btn-info catsgory"
                 onClick={() => {
                   getproductincat(c);
                 }}
