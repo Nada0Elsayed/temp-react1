@@ -3,6 +3,7 @@ import m3 from "./imgs/m3.jpeg";
 import m4 from "./imgs/m4.jpeg";
 import m5 from "./imgs/m5.jpeg";
 import './Slider.css';
+import "./Product.css"
 function Slider() {
     return (
       <>
